@@ -1,0 +1,32 @@
+declare class Nav {
+    private cardViewInitialized;
+    categoryTitle: string;
+    hamburgerReturnAction: any;
+    openArticle: Article;
+    categoriesMenue: HTMLDivElement;
+    issueReader: IssueReader;
+    feedReader: FeedReader;
+    cards: Card[];
+    category: string;
+    shadowReader: ShadowReader;
+    article: Article;
+    document: Document;
+    constructor();
+    init(shadowReader: ShadowReader): void;
+    clear(): void;
+    create(): void;
+    initMenuSlide(): void;
+    startWithArticle(state: any): any;
+    setOpenArticle(article: Article, replace: boolean): void;
+    getNavElement(category: any): Element;
+    setNavElement(category: any): void;
+    switchCategory(category: any): Promise<void>;
+    fetchEntries(category: string): Promise<void>;
+    fetchFeedEntries(category: string): Promise<any>;
+    fetchIssuesEntries(category: string): Promise<any>;
+    show(): void;
+    hide(): void;
+    toggle(): void;
+    resize(): void;
+    bind(): void;
+}
