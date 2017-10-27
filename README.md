@@ -1,5 +1,5 @@
 <!---
-Copyright 2015 The AMP HTML Authors. All Rights Reserved.
+Copyright 2017 Peter Loebel. All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -14,9 +14,12 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# AMP Publisher Sample
+# "AMP PWA Reader" by Paul Bakaus  converted from JavaScript to TypeScript for my on project legunto.me
 
-This is are the TypeScript versions of the JavaScript files for Paul Bakaus "AMP documents via Shadow DOM"
+
+The slightly modified JavaScript files were changed to Typescript
+Maybe helpful for C # developer like me. :-)
+
 
 
 - **[amp-pwa-reader](./amp-pwa-reader):** TypeScript version 
