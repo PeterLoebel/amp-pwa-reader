@@ -14,11 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-# "AMP PWA Reader" by Paul Bakaus  converted from JavaScript to TypeScript for my on project legunto.me
+# [AMP PWA Reader][https://paulbakaus.com/tutorials/html5/building-a-pwamp-0-introducing-the-shadowreader/] by Paul Bakaus  converted from **JavaScript to TypeScript** for my on project [legunto.me](https://www.legunto.me)
 
 
 The slightly modified JavaScript files were changed to Typescript
-Maybe helpful for C # developer like me. :-)
+**Maybe** helpful for C # developer like me. :-)
 
 
 
